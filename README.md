@@ -1,1 +1,9 @@
-<a href="https://ex1mks.github.io/ELAYU/">link web warung elayu</a>
+# ELAYU ✨
+Website Warung Minimalist
+
+🔗 [ELAYU](https://dndyprd.github.io/ukmcomputerclub)
+
+## Technology Used 🛠️
+* HTML
+* CSS
+* JavaScript
