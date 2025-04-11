@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://public.codepenassets.com/css/reset-2.0.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'><link rel="stylesheet" href="./style.css">
+    <title>ElaYu</title>
+  <!-- panggil animasi scroll aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="image/icon.ico" type="image/x-icon" />
+  <link rel="icon" href="image/icon.ico" type="image/x-icon" />
+
+  <!-- swipper js -->
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+</head>
+<body> 
+    <nav>
+      <div class="logo">
+        <a href="#top"><h4>ElaYu</h4></a>
+    </div>
+        <ul>
+          <div class="logo">
+            <a href="#top"><h4>ElaYu</h4></a>
+        </div>
+          
+          <a href="#top" title="KEMBALI KE HALAMAN AWAL">BERANDA</a>
+           <a href="#jenis" title="LIHAT JENIS BARANG">BARANG</a>
+           <a href="#about" title="LIHAT INFO TENTANG KAMI">TENTANG KAMI</a>
+           <a href="#lokasi" title="LIHAT LOKASI KAMI">LOKASI</a>
+           <a href="#contact" title="HUBUNGI KAMI">KONTAK KAMI</a>
+           <a href="tentang.html" target="_blank" title="LIHAT TENTANG WEB INI">TENTANG WEB INI</a>
+           <a href="#credits" title="LIHAT SUMBER GAMBAR">SUMBER</a>
+          </ul>
+        <input type="checkbox" id="checkbox" class="menu-toggle" />
+        <label for="checkbox" class="toggle">
+            <div class="bars" id="bar1"></div>
+            <div class="bars" id="bar2"></div>
+            <div class="bars" id="bar3"></div>
+        </label>
+        <script src="nav.js"></script>
+    </nav>
+
+        <div class="header">
+          <img src="image/banner.jpg" alt="Banner Horizontal" class="banner-horizontal">
+          <img src="image/banner1.jpg" alt="Banner Vertikal" class="banner-vertical">      
+            <h1>ElaYu</h1>
+            <p>Lengkapi Kebutuhan Pokokmu</p>
+            <a href="#jenis" class="info">
+              <h2>Pilih Kebutuhanmu sekarang</h2>
+                  <img src="image/scroll.gif" alt="">
+            </a>
+          </div>
+                  <div class="sekilas">
+                    <h1  data-aos="fade-up"  data-aos-delay="100">SEKILAS</h1>
+                    <img src="image/E.png" alt=""  data-aos="fade-up"  data-aos-delay="200">
+                    <p  data-aos="fade-up" >ElaYu Adalah Sebuah Bisnis Keluarga Yang Berfokus Di 4 Bidang Yaitu Warung Sembako, Depot Air, Warung Makan Dan Pakaian.</p>
+                  </div>
+                  <div class="keunggulan">
+                    <div class="ask"><h2  data-aos="fade-up">Kenapa Harus ElaYu?</h2></div>
+                    <h1  data-aos="fade-up"  data-aos-delay="100">KEUNGGULAN</h1>
+            <div class="benefit">
+              <div class="sembako"  data-aos="fade-up"  data-aos-delay="100">
+                <img src="image/sembakoicon.png" class="no"  alt="">
+                <h2>Kebutuhan Lengkap</h2>
+                <p>Menyediakan Segala Kebutuhanmu</p>
+              </div>
+              <div class="galon"  data-aos="fade-up"  data-aos-delay="200">
+                <img src="image/galonicon.png" alt="">
+                <h2>Air Minum Bersih</h2>
+                <p>Refill Air Minum Bersih dengan Harga Terjangkau</p>
+              </div>
+              <div class="warteg" data-aos="fade-up" data-aos-delay="300">
+                <img src="image/wartegicon.png" alt="">
+                <h2>Rasa Pasakan Rumah</h2>
+                <p>Warung Makan Dengan Rasa Pasakan Rumah</p>                
+              </div>
+              <div class="pakaian" data-aos="fade-up" data-aos-delay="400">
+                <img src="image/pakaian.png" alt="">
+                <h2>Nyaman & Berkualitas</h2>
+                <p> Pakaian Berkualitas Dengan Harga Terjangkau</p>                
+              </div>
+            </div>
+          </div>
+
+  
+<!-- partial:index.partial.html -->
+ <div class="jenis">
+  <div id="jenis"></div>
+   <h1 data-aos="fade-right">PILIH KEBUTUHANMU</h1>
+ </div>
+<div class="swiper-container main-slider loading">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <figure class="slide-bgimg" style="background-image:url(image/sembako.jpg)">
+        <img src="image/sembako.jpg" class="entity-img" />  
+      </figure>
+      <div class="content">
+       <p class="title" data-aos="fade-right" data-aos-duration="400">Warung Sembako</p>
+        <span class="caption" data-aos="fade-right" data-aos-duration="600" >Warung yang menyediakan segala kebutuhan pokok anda yang berlokasi di Cisiih </span>
+        <a href="https://wa.me/+6285770129463?text=Halo%20saya%20ingin%20beli%20sesuatu%20di%20warung" class="button" data-aos="fade-right" data-aos-duration="800">Beli</a>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <figure class="slide-bgimg" style="background-image:url(image/galon.jpg)">
+        <img src="image/galon.jpg" class="entity-img" />
+      </figure>
+      <div class="content" data-aos="fade-right">
+        <p class="title" data-aos="fade-right" data-aos-duration="400">Depot Air Minum</p>
+        <span class="caption" data-aos="fade-right" data-aos-duration="600">Refill air minum bersih dengan harga yang terjangkau yang berlokasi di Cisiih </span>
+        <a href="https://wa.me/+6285770129463?text=Halo%20saya%20ingin%20refil%20air" class="button" data-aos="fade-right" data-aos-duration="800">Beli</a>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <figure class="slide-bgimg" style="background-image:url(image/warteg.webp)">
+        <img src="image/warteg.webp" class="entity-img" />
+      </figure>
+      <div class="content" data-aos="fade-right">
+       <p class="title" data-aos="fade-right" data-aos-duration="400">Warteg</p>
+        <span class="caption" data-aos="fade-right" data-aos-duration="600">Warung makan samping pantai dengan pemandangan laut yang indah</span>
+       <a href="https://wa.me/+6281410321487?text=Halo%20saya%20ingin%20beli%20makan%20di%20warung%20makan%20anda" class="button" data-aos="fade-right" data-aos-duration="800">Beli</a>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <figure class="slide-bgimg" style="background-image:url(image/pakaian.jpg)">
+        <img src="image/pakaian.jpg" class="entity-img" />
+      </figure>
+      <div class="content" data-aos="fade-right">
+       <p class="title" data-aos="fade-right" data-aos-duration="400">Pakaian</p>
+        <span class="caption" data-aos="fade-right" data-aos-duration="600">Menjual Pakaian Berkualitas, Beragam, Dengan Harga Terjangkau</span>
+      <a href="https://wa.me/+6281410321487?text=Halo%20saya%20ingin%20beli%20pakaian" class="button" data-aos="fade-right" data-aos-duration="800">Beli</a>
+      </div>
+    </div>
+  </div>
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev swiper-button-white"></div>
+  <div class="swiper-button-next swiper-button-white"></div>
+</div>
+
+<!-- Thumbnail navigation -->
+<div class="swiper-container nav-slider loading">
+  <div class="swiper-wrapper" role="navigation">
+    <div class="swiper-slide">
+      <figure class="slide-bgimg" style="background-image:url(image/sembako.jpg)">
+        <img src="image/sembako.jpg" class="entity-img" />
+         </figure>
+      <div class="content">
+        <p class="title">Warung Sembako</p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <figure class="slide-bgimg" style="background-image:url(image/galon.jpg)">
+        <img src="image/galon.jpg" class="entity-img" />
+         </figure>
+      <div class="content">
+        <p class="title">Depot Air Minum</p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <figure class="slide-bgimg" style="background-image:url(image/warteg.webp)">
+        <img src="image/warteg.webp" class="entity-img" />
+         </figure>
+      <div class="content">
+        <p class="title">Warteg</p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <figure class="slide-bgimg" style="background-image:url(image/pakaian.jpg)">
+        <img src="image/pakaian.jpg" class="entity-img" />
+         </figure>
+      <div class="content">
+        <p class="title">Pakaian</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script><script  src="./slider.js"></script>
+  <hr style="visibility:hidden;">
+
+  <div class="about-us" id="about">
+    <h1 data-aos="fade-up">TENTANG KAMI</h1>
+    <div class="about-content" data-aos="fade-right" data-aos-delay="100">
+        <img src="image/love.png" class="love-img" alt="">
+        <img src="image/love.png" class="love-img" alt="">
+        <img src="image/ela.webp" alt="About Us Image" class="about-img">
+      <p data-aos="fade" data-aos-delay="300">ElaYu adalah sebuah bisnis keluarga yang berfokus pada empat bidang utama: Warung Sembako, Depot Air, Warung Makan, dan Pakaian. Kami berkomitmen untuk menyediakan produk dan layanan berkualitas tinggi dengan harga terjangkau. Lokasi kami yang strategis memudahkan pelanggan untuk mengakses semua kebutuhan mereka.</p>
+    </div>
+  </div>
+
+  <div class="beli-float">
+    <a href="#jenis">
+      <img src="image/beli.png" />
+    </a>
+  </div>
+
+<div class="whatsapp-float">
+  <a href="#contact">
+    <img src="image/wa.png" />
+  </a>
+</div>
+
+<div class="lokasi">
+    <h1 data-aos="fade-up">LOKASI KAMI</h1>
+  <div id="lokasi"></div>
+
+  <div class="map">
+    <div class="wardeplok" data-aos="fade-up" data-aos-duration="800">
+      <h3>Warung Sembako Dan Depot Air</h3>
+      <!-- streetview warung depot -->
+      <!-- <iframe src="https://www.google.com/maps/embed?pb=!4v1739962176299!6m8!1m7!1smJLQAhU0JMVXyypqat1oxQ!2m2!1d-6.647580737219187!2d105.6023886777965!3f313.11670652777923!4f-7.291177302778877!5f1.6715533031636123" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.9899535003105!2d105.6009253842867!3d-6.64816586258376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e43b1007e52b0f7%3A0xb9a471e7784bc334!2sWarung%20dan%20Depot%20Air%20ElaYu!5e0!3m2!1sid!2sid!4v1740110573294!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="street-view"></div>
+      <a href="https://www.google.com/maps/@-6.6475807,105.6023887,3a,75y,313.12h,92.71t/data=!3m6!1e1!3m4!1smJLQAhU0JMVXyypqat1oxQ!2e0!7i13312!8i6656" target="_blank">Lihat Di Street View</a>
+    </div>
+    <div class="jrk"></div>
+    
+    <div class="wardeplok" data-aos="fade-up" data-aos-duration="800">
+      <h3>Warteg Dan Pakaian</h3>
+    <!-- street view warteg -->
+    <!-- <iframe src="https://www.google.com/maps/embed?pb=!4v1739963000522!6m8!1m7!1sZm0ykGriWl2_iqj6eK9KFw!2m2!1d-6.649836800745024!2d105.5960856589885!3f322.1673051240746!4f0.18937509156215526!5f1.9587109090973311" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+    <!-- lokasi warteg -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22417.32195858356!2d105.58750877233494!3d-6.664254479574245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e43b1003f3c99e9%3A0xb9130efcbe81dbb4!2sWarteg%20ElaYu!5e0!3m2!1sid!2sid!4v1740110454074!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="street-view">
+      <a href="https://www.google.com/maps/@-6.6498368,105.5960857,3a,75y,322.17h,89.81t/data=!3m6!1e1!3m4!1sZm0ykGriWl2_iqj6eK9KFw!2e0!7i13312!8i6656" target="_blank">Lihat Di Street View</a>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+
+  <div class="contact">
+    <div id="contact"></div>
+      <h1 data-aos="fade">KONTAK KAMI</h1>
+          <h2 data-aos="fade" data-aos-delay="200">Warung Sembako dan Depot Air Minum<a href="https://wa.me/+6285770129463" target="_blank">Klik Disini +6285770129463</a></h2> 
+          <h2 data-aos="fade" data-aos-delay="300">Warteg dan Pakaian<a href="https://wa.me/+6281410321487" target="_blank">Klik Disini +6281410321487</a></h2>
+   </div>
+      
+      
+      <div class="credits" id="credits">
+        <h1>ElaYu</h1>
+        <p>Gambar yang digunakan berasal dari sumber berikut : 
+          <a href="https://images.app.goo.gl/ULKzojdxNJhdaeUP6" target="_blank"> Aqualux </a>
+          <a href="https://images.app.goo.gl/627KfvTGwwbfsZRx7" target="_blank"> Shopee </a>
+          <a href="https://images.app.goo.gl/A6poHxwsURxJ8gQV9" target="_blank"> Raja Rak </a>
+          <a href="https://images.app.goo.gl/yv9ySQUEcX3k5E4L6" target="_blank"> Sindo News</a>
+          <a href="https://www.bing.com/images/search?view=detailV2&ccid=rCMm3zJC&id=6F5390422432336E906AE780929E028B2A53F577&thid=OIP.rCMm3zJCE0PyF9XoegRoSwHaHa&mediaurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F022%2F972%2F752%2Foriginal%2Fmother-and-daughter-cartoon-png.png&exph=1920&expw=1920&q=mother+and+daughter+cartoon&simid=608048837657887409&form=IRPRST&ck=2793EF6251C90CA353F7BDC24058C7E2&selectedindex=0&itb=1&ajaxhist=0&ajaxserp=0&pivotparams=insightsToken%3Dccid_rCMm3zJC*cp_2793EF6251C90CA353F7BDC24058C7E2*mid_6F5390422432336E906AE780929E028B2A53F577*simid_608048837657887409*thid_OIP.rCMm3zJCE0PyF9XoegRoSwHaHa&vt=0&sim=11&iss=VSI" target="_blank"> Vecteezy</a>
+        </p>
+      </div>
+      <div class="wm">
+        <p>Created by @ex1mks &copy;2025.</p>
+      </div>
+    </body>
+<script src="fontaws.js"></script>  
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- installasi aos -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>

@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* Menghilangkan dekorasi pada semua text, seperti garis bawah pada link
+dan mengganti semua font */
+* {
+  font-family: "Host Grotesk", sans-serif;
+  text-decoration: none; /* agar overlay tulisan seukuran border img */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* memberi animasi scroll agar smooth */
+html {
+  scroll-behavior: smooth;
+}
+
+/* memberi warna background gradient pada halaman web  */
+body {
+  overflow-x: hidden;
+  background: #071a3c;
+  margin-bottom: 2rem;
+  overflow-x: hidden;
+  color: rgb(255, 255, 255); /* agar body tidak mleber ke samping */
+}
+.pp {
+  border-radius: 50%;
+  margin-top: 10%;
+  transition: 0.8s !important;
+  filter: grayscale(100%);
+}
+
+/* scale untuk zoom pp
+  radius 0% untuk pp kembali ke bentuk semula tanpa border */
+.pp:hover {
+  transform: scale(1.2) !important;
+  border-radius: 0%;
+  filter: grayscale(0%);
+}
+
+header h1 {
+  margin-top: 10px;
+}
+
+.container {
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 9%;
+}
+.container .text {
+  position: relative;
+  color: #4070f4;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.container span {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.text.sec-text:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #071a3c;
+  border-left: 2px solid #4070f4;
+  animation: animate 4s steps(12) infinite;
+}
+@keyframes animate {
+  40%,
+  60% {
+    left: calc(100% + 4px);
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+/* marque */
+.count-down {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  color: white;
+}
+.section-marquee-box {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid var(--main-bg-color);
+  background-color: var(--main-bg-color);
+}
+
+.section h2 {
+  color: white;
+  font-family: "Radio Canada Big", serif;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-size: 6rem;
+  font-weight: 100;
+  flex-shrink: 0;
+  padding: 0 10px;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  transform: translateX(0);
+  animation: text-scroll 75s linear infinite;
+}
+.section h2.reverse {
+  color: var(--main-bg-color);
+  animation: text-scroll-reverse 75s linear infinite;
+}
+@keyframes text-scroll {
+  0% {
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0%, 0, 0);
+  }
+}
+
+@keyframes text-scroll-reverse {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+/* untuk memberi jarak margin atas pada overview */
+.overview {
+  margin-top: 100px;
+  margin-left: 14px;
+  margin-right: 41px;
+}
+
+.overview h1 {
+  margin-bottom: 11px;
+  font-size: 30px;
+}
+
+.overview p {
+    margin-bottom: 17px;
+  line-height: 1.7;
+  letter-spacing: 1.2px;
+  word-spacing: 1.5px;
+  text-transform: capitalize;
+}
+
