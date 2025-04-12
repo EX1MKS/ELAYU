@@ -1,7 +1,7 @@
 # ELAYU ✨
 Website Warung Minimalist
 
-🔗 [ELAYU](https://dndyprd.github.io/ukmcomputerclub)
+🔗 [ELAYU](https://ex1mks.github.io/ELAYU/)
 
 ## Technology Used 🛠️
 * HTML
